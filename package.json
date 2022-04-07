@@ -1,0 +1,15 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "backend": "yarn workspace backend dev",
+    "frontend": "yarn workspace frontend dev"
+  }
+}
